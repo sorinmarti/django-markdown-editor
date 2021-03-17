@@ -8,6 +8,9 @@ from app.models import Post
 
 
 def home_redirect_view(request):
+    """
+    This is a comment.
+    """
     return redirect('simple_form')
 
 
